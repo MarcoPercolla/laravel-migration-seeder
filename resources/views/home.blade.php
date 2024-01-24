@@ -11,8 +11,8 @@
         <p>arrivo:{{$train->arrival_time}}</p>
         <p>code:{{$train->train_code}}</p>
         <p>vagoni:{{$train->carriages_tot}}</p>
-        <h6>{{ $train->on_time ? 'TRENO IN ORARIO' : '' }}</h6>
-        <h6>{{ $train->delayed ? 'TRENO IN RITARDO' : '' }}</h6>
+        <h6>{{ $train->on_time ? 'TRENO IN ORARIO' : 'TRENO IN RITARDO' }}</h6>
+        <h6>{{ $train->delayed ? 'TRENO RIMANDATO' : '' }}</h6>
         
 
         
